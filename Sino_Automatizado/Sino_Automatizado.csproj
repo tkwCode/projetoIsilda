@@ -45,14 +45,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmConrol.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmConrol.Designer.cs">
+      <DependentUpon>FrmConrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGerirPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerirPeriodo.Designer.cs">
+      <DependentUpon>FrmGerirPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInitConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInitConfig.Designer.cs">
+      <DependentUpon>FrmInitConfig.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmConrol.resx">
+      <DependentUpon>FrmConrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerirPeriodo.resx">
+      <DependentUpon>FrmGerirPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInitConfig.resx">
+      <DependentUpon>FrmInitConfig.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

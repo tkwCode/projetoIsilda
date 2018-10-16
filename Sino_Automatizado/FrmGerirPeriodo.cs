@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Sino_Automatizado
 {
-    public partial class Form1 : Form
+    public partial class FrmGerirPeriodo : Form
     {
-        public Form1()
+        public FrmGerirPeriodo()
         {
             InitializeComponent();
+        }
+
+        private void btnAutomatizar_Click(object sender, EventArgs e)
+        {
+            FrmConrol control = new FrmConrol();
+            control.Show();
+            this.Hide();
         }
     }
 }
