@@ -170,6 +170,7 @@
             this.btnGerar.TabIndex = 14;
             this.btnGerar.Text = "Gerar Periodo";
             this.btnGerar.UseVisualStyleBackColor = false;
+            this.btnGerar.Click += new System.EventHandler(this.btnGerar_Click);
             // 
             // label5
             // 
